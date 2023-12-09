@@ -1,4 +1,4 @@
-FROM node:20.10.0-alpine
+FROM node:20.10.0-alpine3.18
 
 LABEL org.opencontainers.image.authors matijs <matijs@gmail.com>
 LABEL org.opencontainers.image.source https://github.com/matijs/dockerfiles/blob/main/npm/Dockerfile
