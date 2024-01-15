@@ -3,24 +3,29 @@ updates:
   - package-ecosystem: "docker"
     directory: "/npm"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
     ignore:
       - dependency-name: "node"
-        update-types: [ "version-update:semver-major" ]
+        update-types:
+          - "version-update:semver-major"
 
   - package-ecosystem: "docker"
     directory: "/pnpm"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
     ignore:
       - dependency-name: "node"
-        update-types: [ "version-update:semver-major" ]
+        update-types:
+          - "version-update:semver-major"
 
   - package-ecosystem: "docker"
     directory: "/yarn"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+      day: "saturday"
     ignore:
       - dependency-name: "node"
-        update-types: [ "version-update:semver-major" ]
-
+        update-types:
+          - "version-update:semver-major"
