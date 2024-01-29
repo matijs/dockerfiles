@@ -1,0 +1,8 @@
+name: CI
+on: pull_request
+
+jobs:
+  autosquash-blocker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: matijs/autosquash-blocker-action@v1.0.0
