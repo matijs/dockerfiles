@@ -8,6 +8,7 @@ RUN npm install --global npm@latest
 RUN npm cache clean --force
 RUN corepack enable
 RUN corepack prepare pnpm@latest --activate
+RUN pnpm config set store-dir ~/.local/share/pnpm/store
 
 ENTRYPOINT [ "docker-entrypoint.sh" ]
 
