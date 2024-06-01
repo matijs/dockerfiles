@@ -29,3 +29,10 @@ updates:
       - dependency-name: "node"
         update-types:
           - "version-update:semver-major"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "00:00"
+      timezone: "Etc/UTC"
