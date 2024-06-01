@@ -5,4 +5,4 @@ jobs:
   autosquash-blocker:
     runs-on: ubuntu-latest
     steps:
-      - uses: matijs/autosquash-blocker-action@d5646c7a0e23e2b565581c38138a72c93a3c3cb4
+      - uses: matijs/no-fixups-action@cc43e939b694e03028659c2835aefd061eca18e8 # v1.0.0
