@@ -2,9 +2,7 @@ version: 2
 updates:
   - package-ecosystem: "docker"
     directories:
-      - "/npm"
-      - "/pnpm"
-      - "/yarn"
+      - "/nodejs"
     schedule:
       interval: "weekly"
       day: "saturday"
