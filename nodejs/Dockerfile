@@ -1,9 +1,9 @@
-FROM node:22.21.1-alpine3.22
+FROM node:24.12.0-alpine3.23
 
 LABEL org.opencontainers.image.authors="matijs <matijs@gmail.com>"
 LABEL org.opencontainers.image.source="https://github.com/matijs/dockerfiles/blob/main/nodejs/Dockerfile"
 
-RUN apk add --no-cache git
+RUN apk add --no-cache difftastic fzf git ripgrep vim
 RUN npm install --global npm@latest
 RUN npm cache clean --force
 RUN corepack enable
