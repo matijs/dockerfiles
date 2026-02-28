@@ -1,4 +1,4 @@
-FROM node:24.13.1-alpine3.23
+FROM node:24.14.0-alpine3.23
 
 LABEL org.opencontainers.image.authors="matijs <matijs@gmail.com>"
 LABEL org.opencontainers.image.source="https://github.com/matijs/dockerfiles/blob/main/nodejs/Dockerfile"
